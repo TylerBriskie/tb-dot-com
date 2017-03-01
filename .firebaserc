@@ -1,5 +1,6 @@
 {
   "projects": {
-    "personal-site": "tyler-briskie"
+    "personal-site": "tyler-briskie",
+    "default": "tyler-briskie"
   }
 }
