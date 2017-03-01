@@ -1,0 +1,105 @@
+body {
+  font-family: 'Exo', sans-serif;
+  background-color:#000;
+}
+
+.img-responsive {
+  height:20vh;
+  width:20vh;
+}
+
+footer {
+  background-color:#000;
+  height:120px;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+.right {
+  padding-right:2em;
+  text-align:right;
+}
+.left {
+  padding-left:2em;
+  text-align:left;
+}
+.heading {
+  margin-top:2em;
+  color: #FDFFDD;
+}
+
+.sub-heading {
+  margin-top:2em;
+
+  color:#1B5260;
+  font-family: 'Poiret One', cursive;
+
+}
+
+header {
+  background-image: url("../public/images/wide-circuit-blue.png");
+  width:100vw;
+  height:500px;
+  display:flex;
+  flex-direction:column;
+}
+
+main {
+  background-color: #149FB6;
+  color:#FDFFDD;
+  text-align:center;
+  padding-bottom: 3em;
+}
+
+h2 {
+  text-align:center;
+  font-family: 'Poiret One', cursive;
+  color: #B54F00;
+}
+.row {
+  display:flex;
+  flex-direction:row;
+}
+.halfie {
+  width:49%;
+}
+
+.main-body {
+  text-align: center;
+  font-size: 110%;
+  font-family: 'Poiret One', cursive;
+}
+.p-one {
+  background-image: url("../public/images/wide-circuit-green.png");
+}
+
+.p-two {
+  background-image: url("../public/images/wide-circuit-purple.png");
+}
+.p-three {
+  background-image: url("../public/images/wide-circuit-orange.png");
+
+}
+
+.parallax {
+  display:flex;
+  flex-direction:column;
+
+  /* Set a specific height */
+  height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Poiret One', cursive;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Burnt Sienna - #B54F00
+    Teal - #149FB6
+    Goldenrod - #B7A35B
+    Dark Teal - #1B5260
+    Eggshell - #FDFFDD
